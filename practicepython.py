@@ -17,3 +17,11 @@ if num1 % 2 == 0:
     print("even number ")
 else:
     print("odd number")
+
+
+# Loops
+# Print all numbers from 1 to 20, but skip multiples of 3.
+
+for num in range(1,21):
+    if num % 3 != 0:
+        print(num)
