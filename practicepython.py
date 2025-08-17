@@ -25,3 +25,13 @@ else:
 for num in range(1,21):
     if num % 3 != 0:
         print(num)
+
+#Function
+#Create a function square(n) that returns the square of a number.
+#Ask the user for a number and print its square.
+
+def square(n):
+    return n*n
+
+n = int(input("Enter number:"))
+print("Square is :",square(n))
