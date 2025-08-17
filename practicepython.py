@@ -63,3 +63,22 @@ while True:
 
     else:
         print("Invalid option, try again.\n")
+
+
+# OOP (Classes & Objects)
+# Create a class Book with attributes title and author.
+# Make 2 objects and print their details.
+class Book:
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
+
+    def __str__(self):
+        return f"Title: {self.title}, Author: {self.author}"
+
+
+s1 = Book("Rich Dad Poor Dad", "Shyam")
+s2 = Book("Chhava", "Ram")
+
+print(s1)
+print(s2)
