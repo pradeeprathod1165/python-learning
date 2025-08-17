@@ -35,3 +35,31 @@ def square(n):
 
 n = int(input("Enter number:"))
 print("Square is :",square(n))
+
+# Lists
+# Make a to-do list program (just store tasks in a list).
+# Add 3 tasks
+# Print all tasks
+
+to_do_list = []
+while True:
+    print("1. Add task")
+    print("2. view task")
+    print("3. Exit")
+
+    choice = (input("Enter your option:"))
+
+    if choice == "1":
+        task = input("enter task: ")
+        to_do_list.append(task)
+        print("task added successfully")
+    
+    elif choice == "2":
+        print(to_do_list)
+
+    elif choice == "3":
+        print("Goodbye!")
+        break
+
+    else:
+        print("Invalid option, try again.\n")
