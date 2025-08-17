@@ -82,3 +82,14 @@ s2 = Book("Chhava", "Ram")
 
 print(s1)
 print(s2)
+
+##dictionary
+phonebook = {
+    "Pradeep": "1234567890",
+    "Anjali": "9876543210",
+    "Rahul": "4567891230"
+}
+
+print("All Contacts:")
+for name, phone in phonebook.items():
+    print(f"{name}: {phone}")
