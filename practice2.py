@@ -18,3 +18,8 @@ def cube(n):
     return n**3
 
 print("Cube of 3 is:", cube(3))
+
+#5. List
+fruits = ["apple", "banana", "mango"]
+for fruit in fruits:
+    print(fruit)
