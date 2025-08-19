@@ -23,3 +23,8 @@ print("Cube of 3 is:", cube(3))
 fruits = ["apple", "banana", "mango"]
 for fruit in fruits:
     print(fruit)
+
+#6. Dictionary
+student = {"name": "Pradeep", "age": 21}
+print("Student Name:", student["name"])
+print("Student Age:", student["age"])
