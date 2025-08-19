@@ -28,3 +28,14 @@ for fruit in fruits:
 student = {"name": "Pradeep", "age": 21}
 print("Student Name:", student["name"])
 print("Student Age:", student["age"])
+
+#7. Class & Object
+class Dog:
+    def __init__(self, name):
+        self.name = name
+
+    def bark(self):
+        print(self.name, "says Woof!")
+
+d = Dog("Tommy")
+d.bark()
