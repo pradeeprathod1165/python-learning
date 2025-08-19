@@ -12,3 +12,9 @@ else:
 #3. Loops
 for i in range(1, 6):
     print("Python Rocks!", i)
+
+#4. Function
+def cube(n):
+    return n**3
+
+print("Cube of 3 is:", cube(3))
