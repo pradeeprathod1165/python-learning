@@ -1,7 +1,11 @@
 import tkinter as tk
+import random
 
-root = tk.Tk()
-root.title("Number Guessing Game")
-root.geometry("320x220")   # width x height
-root.mainloop()
+# ----- game state -----
+secret_number = random.randint(1, 100)
+tries = 0
 
+# ----- actions -----
+def check_guess():
+    global tries, secret_number
+    text = guess_entry.get().strip()
