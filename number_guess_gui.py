@@ -70,3 +70,8 @@ status_label.pack()
 
 newgame_btn = tk.Button(root, text="New Game", command=new_game)
 newgame_btn.pack(pady=8)
+
+# press Enter to check
+root.bind("<Return>", lambda e: check_guess())
+
+root.mainloop()
