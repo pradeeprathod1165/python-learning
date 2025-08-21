@@ -15,3 +15,8 @@ if word == word[::-1]:
     print("Palindrome")
 else:
     print("Not Palindrome")
+
+
+#4. Find Maximum in a List
+numbers = [3, 7, 2, 9, 5]
+print("Maximum:", max(numbers))
