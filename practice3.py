@@ -20,3 +20,8 @@ else:
 #4. Find Maximum in a List
 numbers = [3, 7, 2, 9, 5]
 print("Maximum:", max(numbers))
+
+#5. Multiplication Table
+n = 4
+for i in range(1, 11):
+    print(n, "x", i, "=", n * i)
