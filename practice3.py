@@ -33,3 +33,12 @@ print("Add:", a + b)
 print("Subtract:", a - b)
 print("Multiply:", a * b)
 print("Divide:", a / b)
+
+#7. Count Vowels in a String
+text = "hello world"
+vowels = "aeiou"
+count = 0
+for ch in text:
+    if ch in vowels:
+        count += 1
+print("Number of vowels:", count)
