@@ -25,3 +25,11 @@ print("Maximum:", max(numbers))
 n = 4
 for i in range(1, 11):
     print(n, "x", i, "=", n * i)
+
+#6. Simple Calculator
+a = 10
+b = 5
+print("Add:", a + b)
+print("Subtract:", a - b)
+print("Multiply:", a * b)
+print("Divide:", a / b)
