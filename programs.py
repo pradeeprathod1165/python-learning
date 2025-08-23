@@ -28,3 +28,13 @@ print("Add:", add(5, 3))
 print("Subtract:", sub(5, 3))
 print("Multiply:", mul(5, 3))
 print("Divide:", div(5, 3))
+
+#4. Random Password Generator
+import random
+import string
+
+# Generate a random password of length 8
+characters = string.ascii_letters + string.digits + string.punctuation
+password = ''.join(random.choice(characters) for i in range(8))
+
+print("Generated Password:", password)
