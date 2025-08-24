@@ -20,3 +20,10 @@ for i in range(2,21,2):
 #Print multiplication table of 5.
 for i in range(5,55,5):
     print(i)
+
+#Write a function to return the square of a number.
+def squarenum(n):
+    return n*n
+   
+n =int(input('enter number:'))
+print('square is',squarenum(n))
