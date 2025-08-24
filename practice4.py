@@ -27,3 +27,16 @@ def squarenum(n):
    
 n =int(input('enter number:'))
 print('square is',squarenum(n))
+
+#Count how many times "a" appears in "banana".
+text = 'banana'
+count = 0
+
+for i in text:
+    if i == 'a':
+        count += 1
+
+if count == 0:
+    print("no letter found")
+else:
+    print(count)
