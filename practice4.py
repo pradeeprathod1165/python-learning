@@ -16,3 +16,7 @@ for i in range(1,11):
 #Print only even numbers from 1 to 20.
 for i in range(2,21,2):
     print(i)
+
+#Print multiplication table of 5.
+for i in range(5,55,5):
+    print(i)
