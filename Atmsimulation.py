@@ -11,3 +11,8 @@ while True:
 
     if choice == 1:
         print('Balance amout : ', balance)
+
+    elif choice == 2:
+        deposite = int(input('enter option to deposite:'))
+        balance += deposite
+        print('Deposite cash successful')
