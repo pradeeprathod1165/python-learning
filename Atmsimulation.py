@@ -13,6 +13,15 @@ while True:
         print('Balance amout : ', balance)
 
     elif choice == 2:
-        deposite = int(input('enter option to deposite:'))
+        deposite = int(input('enter amout to deposite:'))
         balance += deposite
         print('Deposite cash successful')
+    
+    elif choice == 3:
+        withdraw = int(input('enter amount  to withdraw:'))
+
+        if withdraw <= balance:
+            balance -= withdraw
+            print('withdraw successful',withdraw)
+        else:
+            print('balance not sufficient')
