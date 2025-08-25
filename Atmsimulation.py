@@ -25,3 +25,9 @@ while True:
             print('withdraw successful',withdraw)
         else:
             print('balance not sufficient')
+    elif choice == 4 :
+        print('successfully exit')
+        break
+
+    else:
+        print('enter correct option')
