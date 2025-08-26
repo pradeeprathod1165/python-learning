@@ -16,3 +16,11 @@ if choice in menu:
     print(f"{choice} will cost ₹{menu[choice]}")
 else:
     print("Sorry, item not available.")
+
+
+#random suggestion
+import random
+
+coffees = ["Espresso", "Latte", "Cappuccino", "Mocha", "Americano"]
+
+print("Today's suggestion:", random.choice(coffees))
