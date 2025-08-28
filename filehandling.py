@@ -38,3 +38,13 @@ if os.path.exists("example.txt"):
     print("File exists")
 else:
     print("File not found")
+
+
+#deleting
+import os
+
+if os.path.exists("myfile.txt"):
+    os.remove("myfile.txt")
+    print("File deleted successfully")
+else:
+    print("No file found")
