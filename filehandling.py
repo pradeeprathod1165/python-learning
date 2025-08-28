@@ -7,4 +7,11 @@ file = open('example.txt','w')
 f = open("example.txt", "w")  
 f.write("Hello, Python!\n")  
 f.write("This is file handling step by step.")  
-f.close()  # always close the file
+f.close()  
+
+
+#read file
+f = open("example.txt", "r")  
+content = f.read()  
+print(content)  
+f.close()
