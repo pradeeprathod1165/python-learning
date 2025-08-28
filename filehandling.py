@@ -48,3 +48,11 @@ if os.path.exists("myfile.txt"):
     print("File deleted successfully")
 else:
     print("No file found")
+
+
+#copy image
+with open("image.jpg", "rb") as f:     # read binary
+    data = f.read()
+
+with open("copy.jpg", "wb") as f:      # write binary
+    f.write(data)
