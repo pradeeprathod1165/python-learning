@@ -1,2 +1,3 @@
 Hello, Python!
 This is file handling step by step.
+This line is appended.

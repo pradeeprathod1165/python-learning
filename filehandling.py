@@ -9,6 +9,10 @@ f.write("Hello, Python!\n")
 f.write("This is file handling step by step.")  
 f.close()  
 
+f = open("example.txt", "a")  
+f.write("\nThis line is appended.")  
+f.close()
+
 
 #read file
 f = open("example.txt", "r")  
@@ -19,3 +23,4 @@ f.close()
 #reading methods
 # f.readline()   # reads one line  
 # f.readlines()  # reads all lines into a list
+
