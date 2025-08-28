@@ -15,3 +15,7 @@ f = open("example.txt", "r")
 content = f.read()  
 print(content)  
 f.close()
+
+#reading methods
+# f.readline()   # reads one line  
+# f.readlines()  # reads all lines into a list
