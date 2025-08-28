@@ -30,3 +30,11 @@ with open("example.txt", "r") as f:
         print(line.strip())
 
 
+#checking file is exist or not
+
+import os
+
+if os.path.exists("example.txt"):
+    print("File exists")
+else:
+    print("File not found")
