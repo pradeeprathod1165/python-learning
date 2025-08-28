@@ -24,3 +24,9 @@ f.close()
 # f.readline()   # reads one line  
 # f.readlines()  # reads all lines into a list
 
+# with 
+with open("example.txt", "r") as f:
+    for line in f:
+        print(line.strip())
+
+
