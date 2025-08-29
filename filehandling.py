@@ -83,3 +83,10 @@ import os
 # remove empty folder
 os.rmdir("myfolder")
 print("Folder deleted successfully")
+
+
+import shutil
+
+# remove entire folder with its contents
+shutil.rmtree("parent")
+print("Folder and all files deleted successfully")
