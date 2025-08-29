@@ -58,16 +58,21 @@ else:
 #     f.write(data)
 
 #working with directories
+# import os
+
+# # create a folder named "myfolder"
+# os.mkdir("myfolder")
+
+# print("Folder created successfully")
+
+# import os
+
+# # create "parent/child" directories at once
+# os.makedirs("parent/child", exist_ok=True)
+
+# print("Nested folders created successfully")
+
 import os
 
-# create a folder named "myfolder"
-os.mkdir("myfolder")
-
-print("Folder created successfully")
-
-import os
-
-# create "parent/child" directories at once
-os.makedirs("parent/child", exist_ok=True)
-
-print("Nested folders created successfully")
+print(os.listdir("."))       # list files in current directory
+print(os.listdir("parent"))  # list inside "parent" folder
