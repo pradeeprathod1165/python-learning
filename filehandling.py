@@ -64,3 +64,10 @@ import os
 os.mkdir("myfolder")
 
 print("Folder created successfully")
+
+import os
+
+# create "parent/child" directories at once
+os.makedirs("parent/child", exist_ok=True)
+
+print("Nested folders created successfully")
