@@ -51,8 +51,16 @@ else:
 
 
 #copy image
-with open("image.jpg", "rb") as f:     # read binary
-    data = f.read()
+# with open("image.jpg", "rb") as f:     # read binary
+#     data = f.read()
 
-with open("copy.jpg", "wb") as f:      # write binary
-    f.write(data)
+# with open("copy.jpg", "wb") as f:      # write binary
+#     f.write(data)
+
+#working with directories
+import os
+
+# create a folder named "myfolder"
+os.mkdir("myfolder")
+
+print("Folder created successfully")
