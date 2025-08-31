@@ -27,3 +27,10 @@ print(text.isalnum())   # True  (letters + numbers)
 print("   ".isspace())  # True  (only spaces)
 print("Hello".startswith("He")) # True
 print("Hello".endswith("lo"))   # True
+
+#5. Finding & Replacing
+text = "I love Python, Python is fun"
+print(text.find("Python"))     # 7 (first index)
+print(text.rfind("Python"))    # 19 (last index)
+print(text.replace("Python", "Java"))
+# I love Java, Java is fun
