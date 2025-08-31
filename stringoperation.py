@@ -48,3 +48,9 @@ text = "   hello   "
 print(text.strip())   # "hello"
 print(text.lstrip())  # "hello   "
 print(text.rstrip())  # "   hello"
+
+#8. String Formatting
+name = "Pradeep"
+age = 21
+print(f"My name is {name} and I am {age} years old.")   # modern
+print("My name is {} and I am {} years old.".format(name, age))  # old
