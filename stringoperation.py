@@ -17,3 +17,13 @@ print(text.lower())   # python
 print(text.title())   # Python
 print(text.capitalize())  # Python
 print(text.swapcase())    # PyThOn
+
+
+#4. Checking Strings
+text = "python123"
+print(text.isalpha())   # False (contains numbers)
+print(text.isdigit())   # False (contains letters)
+print(text.isalnum())   # True  (letters + numbers)
+print("   ".isspace())  # True  (only spaces)
+print("Hello".startswith("He")) # True
+print("Hello".endswith("lo"))   # True
