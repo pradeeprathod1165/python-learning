@@ -34,3 +34,11 @@ print(text.find("Python"))     # 7 (first index)
 print(text.rfind("Python"))    # 19 (last index)
 print(text.replace("Python", "Java"))
 # I love Java, Java is fun
+
+#6. Splitting & Joining
+text = "apple,banana,orange"
+fruits = text.split(",")   # ['apple', 'banana', 'orange']
+print(fruits)
+
+joined = "-".join(fruits)  # apple-banana-orange
+print(joined)
