@@ -42,3 +42,9 @@ print(fruits)
 
 joined = "-".join(fruits)  # apple-banana-orange
 print(joined)
+
+#7. Stripping (remove spaces/symbols)
+text = "   hello   "
+print(text.strip())   # "hello"
+print(text.lstrip())  # "hello   "
+print(text.rstrip())  # "   hello"
