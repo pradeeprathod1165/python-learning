@@ -40,3 +40,8 @@ else:
 for i in range(1,20):
    if i % 2 == 0:
     print(i)
+
+#pattern
+num = input('enter num:')
+for i in range(1,10):
+   print(num*i)
