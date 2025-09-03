@@ -22,9 +22,17 @@ print(num3 ** num4)
 print(num3 % num4)
 
 
-#program 
+#program : age verification
 age1 = int(input('enter your age:'))
 if age1 >= 18:
     print('you are eligible')
 else :
     print('you are not eligible')
+
+#program 2 : number verification
+usernum = int(input('Enter your number:'))
+if usernum % 2 == 0:
+    print('positive,even')
+else:
+    print('negative,odd')
+    
