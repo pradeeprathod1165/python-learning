@@ -37,3 +37,8 @@ student = {
 }
 
 print (student['name'])
+print (student['age'])
+
+#adding new key
+student['height'] = 5.4
+print(student)
