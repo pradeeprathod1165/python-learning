@@ -49,3 +49,9 @@ num = input('enter num or sign:')
 for i in range(1,10):
    print(num*i)
 
+#nested loop 2
+rows = 5
+for i in range(1, rows+1):
+    for j in range(i):
+        print("*", end=" ")
+    print()
