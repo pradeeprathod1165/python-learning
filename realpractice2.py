@@ -42,3 +42,10 @@ print (student['age'])
 #adding new key
 student['height'] = 5.4
 print(student)
+
+
+#nested loop
+num = input('enter num or sign:')
+for i in range(1,10):
+   print(num*i)
+
