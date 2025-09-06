@@ -13,3 +13,9 @@ def add(a,b):
 #calling fucntions
 result = add(3,5)
 print(result)
+
+
+#list(array in python)
+fruits = ['apple','orange','graphes']
+
+print(fruits[0])
