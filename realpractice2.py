@@ -19,3 +19,7 @@ print(result)
 fruits = ['apple','orange','graphes']
 
 print(fruits[0])
+print(len(fruits[2]))
+
+fruits.append('watermelon')
+print(fruits)
