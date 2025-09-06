@@ -23,3 +23,7 @@ print(len(fruits[2]))
 
 fruits.append('watermelon')
 print(fruits)
+
+# loop through list
+for fruit in fruits:
+    print(fruit)
