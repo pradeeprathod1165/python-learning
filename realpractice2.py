@@ -27,3 +27,13 @@ print(fruits)
 # loop through list
 for fruit in fruits:
     print(fruit)
+
+
+#dictionary
+student = {
+    'name' : 'Pradeep',
+    'age' : 21,
+    'is_student' : True
+}
+
+print (student['name'])
