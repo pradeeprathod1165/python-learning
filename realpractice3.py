@@ -26,3 +26,9 @@ for j in range(1,11):
     if j == 5:
         continue
     print(j)
+
+#Functions with Multiple Arguments & Defaults
+def mularg(base, exp = 2):
+    return base ** exp
+
+print(mularg(3))
