@@ -44,3 +44,11 @@ class Student:
 
 s1 = Student("Pradeep", 21)
 s1.display()
+
+#built in library
+import math
+print(math.sqrt(16))    
+print(math.factorial(5))
+
+import random
+print(random.randint(1, 10))  
