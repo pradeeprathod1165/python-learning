@@ -32,3 +32,15 @@ def mularg(base, exp = 2):
     return base ** exp
 
 print(mularg(3))
+
+#class and object
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def display(self):
+        print("Name:", self.name, "Age:", self.age)
+
+s1 = Student("Pradeep", 21)
+s1.display()
