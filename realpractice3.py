@@ -8,3 +8,10 @@ print(text.upper())
 print(text.lower())
 print(text.replace("Python", "Java"))
 print('ing' in text)
+
+
+#while loop
+i = 1
+while i <= 5:
+    print("Count:", i)
+    i += 1
