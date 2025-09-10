@@ -15,3 +15,10 @@ print(" ".join(display))
 
 #guess
 guess = input("Guess a letter: ").lower()
+
+# Reveal the guessed letter in the correct position(s)
+for position in range(len(chosen_word)):
+    if chosen_word[position] == guess:
+        display[position] = guess
+
+print(" ".join(display))
