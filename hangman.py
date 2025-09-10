@@ -13,4 +13,5 @@ for letter in chosen_word:
 print("Welcome to Hangman!")
 print(" ".join(display))
 
-
+#guess
+guess = input("Guess a letter: ").lower()
