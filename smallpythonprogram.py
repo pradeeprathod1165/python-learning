@@ -6,3 +6,12 @@ print("Addition:", num1 + num2)
 print("Subtraction:", num1 - num2)
 print("Multiplication:", num1 * num2)
 print("Division:", num1 / num2)
+
+
+#age calculator
+# Age after 10 years
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+future_age = age + 10
+print(name, "you will be", future_age, "years old after 10 years.")
