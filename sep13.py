@@ -21,3 +21,8 @@ else:
 num = (input('enter number:'))
 
 print(num[-1])
+
+#last digit finder method 2
+n = int(input("Enter integer: "))
+last = abs(n) % 10
+print("Last digit:", last)
