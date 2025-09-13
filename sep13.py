@@ -23,6 +23,17 @@ num = (input('enter number:'))
 print(num[-1])
 
 #last digit finder method 2
-n = int(input("Enter integer: "))
+s = input("Enter a number: ")
+n = int(float(s))   # convert to float first, then to int
 last = abs(n) % 10
 print("Last digit:", last)
+
+
+#check divisibility
+num2 = int(input('enter your number:'))
+
+if num2 / 3 and num2/5:
+    print('number is divisble by 3 and 5')
+else:
+    print('not divisible')
+ 
