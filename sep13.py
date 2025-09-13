@@ -15,3 +15,9 @@ elif average >=50 :
     print('Grade B')
 else:
     print('Grade C')
+
+
+#Last digit finder
+num = (input('enter number:'))
+
+print(num[-1])
