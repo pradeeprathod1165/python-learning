@@ -7,3 +7,11 @@ sub3 = int(input('Enter mark sub3:'))
 sum = sub1 + sub2 + sub3 
 average = (sum / 3)
 print(average)
+
+#grade calculation
+if average >= 75:
+    print('Grade A')
+elif average >=50 :
+    print('Grade B')
+else:
+    print('Grade C')
