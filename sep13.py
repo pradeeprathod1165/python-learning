@@ -37,3 +37,12 @@ if num2 / 3 and num2/5:
 else:
     print('not divisible')
  
+
+ #bill splitter
+bill = int(input('enter bill amount:'))
+people = int(input('enter number of people:'))
+
+#bill splitting
+split = bill / people
+
+print('split amount is :',split)
