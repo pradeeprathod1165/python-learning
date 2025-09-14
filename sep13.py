@@ -70,4 +70,15 @@ print("Sum of digits =", total)
 
 #reverse
 numb1 = input('enter number')
-print('rever',numb1[::-1])
+print('reverse',numb1[::-1])
+
+#palindrome
+numb1 = input("Enter number: ")
+numb2 = numb1[::-1]   # store reversed string
+
+print("Reversed:", numb2)
+
+if numb1 == numb2:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
