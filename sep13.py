@@ -58,3 +58,12 @@ elif n2 > n1 and n2 > n3:
     print('num 2 is greater:',n2)
 else:
     print('num 3 is greater:',n3)
+
+#sum of digit
+numb = input("Enter a number: ")
+
+total = 0
+for digit in numb:       
+    total = total + int(digit)
+
+print("Sum of digits =", total)
