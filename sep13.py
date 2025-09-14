@@ -82,3 +82,14 @@ if numb1 == numb2:
     print("Palindrome")
 else:
     print("Not Palindrome")
+
+#amstrong number 153 = 1³ + 5³ + 3³ = 153
+ams = input('enter number bro:')
+total = 0
+for digit in ams:       
+    total = total + int(digit) ** 3
+print('total',total)
+if total == int(ams):
+    print('amstrong number')
+else:
+    print('no amstrong number')
