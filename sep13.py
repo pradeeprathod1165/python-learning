@@ -67,3 +67,7 @@ for digit in numb:
     total = total + int(digit)
 
 print("Sum of digits =", total)
+
+#reverse
+numb1 = input('enter number')
+print('rever',numb1[::-1])
