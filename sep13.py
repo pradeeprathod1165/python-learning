@@ -46,3 +46,15 @@ people = int(input('enter number of people:'))
 split = bill / people
 
 print('split amount is :',split)
+
+#greatest of three number
+n1 = int(input('enter first number:'))
+n2 = int(input('enter second number:'))
+n3 = int(input('enter third number:'))
+
+if n1 > n2 and n1 > n3:
+    print('number 1 greater:',n1)
+elif n2 > n1 and n2 > n3:
+    print('num 2 is greater:',n2)
+else:
+    print('num 3 is greater:',n3)
