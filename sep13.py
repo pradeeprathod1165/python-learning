@@ -93,3 +93,14 @@ if total == int(ams):
     print('amstrong number')
 else:
     print('no amstrong number')
+
+# vowels and consonants
+word = input("Enter your word: ")
+vowels = 0
+
+for ch in word:   # loop through each character
+    if ch.lower() in ['a','e','i','o','u']:   # check if character is a vowel
+        vowels += 1
+
+print("Vowels:", vowels)
+print("Consonants:", len(word) - vowels)
