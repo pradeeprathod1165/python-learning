@@ -23,3 +23,10 @@ for digit in n2:
     count += 1
 
 print(count)
+
+#even number till N
+n3 = int(input("Enter number: "))
+
+for i in range(1, n3+1):   
+    if i % 2 == 0:         
+        print(i, end=" ")
