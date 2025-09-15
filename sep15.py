@@ -14,3 +14,12 @@ print("Final single digit =", num1)
 n = int(input("Enter number: "))
 for i in range(1, 11):
     print(n, "x", i, "=", n * i)
+
+#count digits
+n2 = (input("Enter number: "))
+count = 0
+
+for digit in n2:
+    count += 1
+
+print(count)
