@@ -8,3 +8,9 @@ while len(num1) > 1:
     num1 = str(total)  
 
 print("Final single digit =", num1)
+
+
+#multiplication table
+n = int(input("Enter number: "))
+for i in range(1, 11):
+    print(n, "x", i, "=", n * i)
