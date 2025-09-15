@@ -30,3 +30,19 @@ n3 = int(input("Enter number: "))
 for i in range(1, n3+1):   
     if i % 2 == 0:         
         print(i, end=" ")
+
+#even odd seprate addition
+numb = input("Enter a number: ")
+
+totaleven = 0
+totalodd = 0
+
+for digit in numb:    
+    digit = int(digit)          
+    if digit % 2 == 0:  
+        totaleven = totaleven + digit
+    else:
+        totalodd = totalodd + digit
+
+print("even =", totaleven)
+print("odd =", totalodd)
