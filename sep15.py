@@ -46,3 +46,8 @@ for digit in numb:
 
 print("even =", totaleven)
 print("odd =", totalodd)
+
+#loop
+num = input('enter num or sign:')
+for i in range(1,5):
+   print(num*i)
