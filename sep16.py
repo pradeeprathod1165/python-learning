@@ -31,3 +31,7 @@ lst.insert(1, 9)
 # remove
 lst.remove(9)         
 last = lst.pop() 
+
+# built-in helpers
+print(sum(lst))      
+print(max(lst), min(lst))
