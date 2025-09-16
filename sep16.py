@@ -42,3 +42,10 @@ print(lst.count(1))
 # sort & reverse
 lst.sort()            
 lst.reverse()   
+
+#sum of all in list
+parts = input("Enter numbers: ").split()
+total = 0
+for p in parts:
+    total += int(p)
+print("Sum =", total)
