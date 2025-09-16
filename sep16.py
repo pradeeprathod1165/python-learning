@@ -6,3 +6,6 @@ nums   = [10, 20, 30, 40]
 #accessing elements
 print(fruits[0])      
 print(nums[-1])  
+
+#length of element
+print(len(nums))  
