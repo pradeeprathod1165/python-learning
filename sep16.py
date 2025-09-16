@@ -38,3 +38,7 @@ print(max(lst), min(lst))
 
 # count occurrences
 print(lst.count(1))
+
+# sort & reverse
+lst.sort()            
+lst.reverse()   
