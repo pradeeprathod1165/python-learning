@@ -20,3 +20,10 @@ for x in nums:
 # loop using index
 for i in range(len(nums)):
     print("index", i, "value", nums[i])
+
+#list operations
+lst = [3, 1, 4]
+
+# add
+lst.append(5)       
+lst.insert(1, 9)
