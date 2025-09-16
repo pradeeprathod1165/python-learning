@@ -27,3 +27,7 @@ lst = [3, 1, 4]
 # add
 lst.append(5)       
 lst.insert(1, 9)
+
+# remove
+lst.remove(9)         
+last = lst.pop() 
