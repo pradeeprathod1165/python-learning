@@ -9,3 +9,6 @@ print(nums[-1])
 
 #length of element
 print(len(nums))  
+
+#changing element
+nums[1] = 25 
