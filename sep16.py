@@ -16,3 +16,7 @@ nums[1] = 25
 # loop through list (for each element)
 for x in nums:
     print(x)
+
+# loop using index
+for i in range(len(nums)):
+    print("index", i, "value", nums[i])
