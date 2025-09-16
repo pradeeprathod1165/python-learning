@@ -35,3 +35,6 @@ last = lst.pop()
 # built-in helpers
 print(sum(lst))      
 print(max(lst), min(lst))
+
+# count occurrences
+print(lst.count(1))
