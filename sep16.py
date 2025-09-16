@@ -12,3 +12,7 @@ print(len(nums))
 
 #changing element
 nums[1] = 25 
+
+# loop through list (for each element)
+for x in nums:
+    print(x)
