@@ -21,3 +21,16 @@ while True:
     
   elif choice == 2:
         print('Books ', books)
+
+  elif choice == 3:
+      search = input("Enter book name to search: ")
+  
+      found = False
+      for book in books:
+          if book["title"].lower() == search.lower():   # case-insensitive
+              print("Book found:", book)
+              found = True
+              break
+  
+      if not found:
+          print("No such book available")
