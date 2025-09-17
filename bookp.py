@@ -48,3 +48,10 @@ while True:
  
      if not found:
          print("No such book available")
+
+  elif choice == 5:
+      print('thanks....')
+      break
+  
+
+
