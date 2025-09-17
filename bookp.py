@@ -27,10 +27,24 @@ while True:
   
       found = False
       for book in books:
-          if book["title"].lower() == search.lower():   # case-insensitive
+          if book["title"].lower() == search.lower():  
               print("Book found:", book)
               found = True
               break
   
       if not found:
           print("No such book available")
+
+  elif choice == 4:
+     remove = input("Enter book name to remove: ")
+ 
+     found = False
+     for book in books:
+         if book["title"].lower() == remove.lower():  
+             books.remove(book)  
+             print("Book removed successfully:", book)
+             found = True
+             break   
+ 
+     if not found:
+         print("No such book available")
