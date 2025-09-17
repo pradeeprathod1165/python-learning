@@ -18,3 +18,6 @@ while True:
         bookdetail = {"title": bookname, "author": author}
         books.append(bookdetail)
         print('book added successfull')
+    
+  elif choice == 2:
+        print('Books ', books)
