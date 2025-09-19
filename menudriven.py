@@ -15,3 +15,11 @@ while True:
         num2 = int(input('enter number2:')) 
 
         print("addition is:", num1 + num2)
+
+    elif choice == 2:
+        n = int(input('enter number:'))
+        if n % 2 == 0 :
+            print('even')
+        else:
+            print('odd')
+ 
