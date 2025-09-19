@@ -48,4 +48,13 @@ while True:
         string2 = input('enter string:')
         print('reverse:',string2[::-1])
 
+    elif choice == 6:
+        numb1 = input("Enter number: ")
+        numb2 = numb1[::-1]    
+
+        if numb2 == numb1 :
+            print('palindrome')
+        else:
+            print('not a palindrome ')
+
 
