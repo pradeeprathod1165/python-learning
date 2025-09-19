@@ -22,4 +22,15 @@ while True:
             print('even')
         else:
             print('odd')
- 
+
+    elif choice == 3:
+        string1 = input("Enter string: ")
+        vowels = 'aeiouAEIOU'
+        count = 0
+        
+        for ch in string1:
+            if ch in vowels:  
+                count += 1
+        
+        print("Vowel count:", count)
+
