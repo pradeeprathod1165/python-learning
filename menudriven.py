@@ -1,0 +1,11 @@
+while True:
+    print("\n--- numbers operation ---")
+    print("1. Add numbers")
+    print("2. check even odd")
+    print("3. count vowels")
+    print("4. find factorial")
+    print("5. reverse string")
+    print("6. check palindrome")
+    print("7. exit")
+
+    choice = int(input('enter option: '))
