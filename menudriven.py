@@ -57,4 +57,11 @@ while True:
         else:
             print('not a palindrome ')
 
+    elif choice == 7:
+        print("Thank you......")
+        print("exiting...")
+        break
+
+    
+
 
