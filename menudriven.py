@@ -62,6 +62,7 @@ while True:
         print("exiting...")
         break
 
-    
+    else:
+        print("choose valid option")
 
 
