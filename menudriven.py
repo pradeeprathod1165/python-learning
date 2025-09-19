@@ -44,4 +44,8 @@ while True:
         
         print("Factorial of", n, "is", fact)
 
+    elif choice == 5:    
+        string2 = input('enter string:')
+        print('reverse:',string2[::-1])
+
 
