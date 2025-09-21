@@ -22,3 +22,8 @@ def rev(s):
     return s[::-1]
 
 print(rev(input("Enter word: ")))
+
+
+#Square of a Number
+square = lambda x: x*x
+print(square(int(input("Enter number: "))))
