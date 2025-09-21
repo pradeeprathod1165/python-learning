@@ -12,3 +12,7 @@ class Person:
 
 p = Person(input("Enter name: "))
 p.greet()
+
+#ount Vowels in a Word
+count = lambda w: sum(1 for c in w if c.lower() in 'aeiou')
+print(count(input("Enter word: ")))
