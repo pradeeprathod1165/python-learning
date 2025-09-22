@@ -19,3 +19,7 @@ print(nums)
 #platform
 import platform
 print(platform.system(), platform.release())
+
+#uuid - generate unique id
+import uuid
+print(uuid.uuid4())
