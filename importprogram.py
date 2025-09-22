@@ -23,3 +23,7 @@ print(platform.system(), platform.release())
 #uuid - generate unique id
 import uuid
 print(uuid.uuid4())
+
+#calender
+import calendar
+print(calendar.month(2025, 9))
