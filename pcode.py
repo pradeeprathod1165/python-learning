@@ -40,3 +40,18 @@ s = Rectangle()
 s.rec(5, 3)  
 print("Area:", s.area())
 print("Perimeter:", s.param())
+
+#class and object car
+class car:
+    def cardetail(self,brand, model, year):
+        self.brand = brand
+        self.model = model
+        self.year = year
+
+    def toyota(self):
+        self.brand = 'toyota'
+        self.model = 'T1104'
+        print(f'enginer start for car brand {self.brand} and model is {self.model}')
+
+s = car()
+s.toyota()
