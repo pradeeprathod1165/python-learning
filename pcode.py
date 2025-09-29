@@ -22,3 +22,21 @@ if student >=35 and student == 40 :
     print('you got a grade:c')
 else:
     print('sorry you are fail and got grade:f')
+
+#class
+class Rectangle:
+    def rec(self, length, width):
+        self.length = length
+        self.width = width
+
+    def area(self):
+        return self.length * self.width
+
+    def param(self):
+        return 2 * (self.length + self.width)
+
+
+s = Rectangle()
+s.rec(5, 3)  
+print("Area:", s.area())
+print("Perimeter:", s.param())
