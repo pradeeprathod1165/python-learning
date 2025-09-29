@@ -53,5 +53,11 @@ class car:
         self.model = 'T1104'
         print(f'enginer start for car brand {self.brand} and model is {self.model}')
 
+    def BMW(self):
+        self.brand = 'BMW'
+        self.model = 'B04'
+        print(f'enginer start for car brand {self.brand} and model is {self.model}')
+
 s = car()
 s.toyota()
+s.BMW()
