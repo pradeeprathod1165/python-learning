@@ -40,3 +40,6 @@ print(Counter("banana"))
 
 import random
 print(random.choice(["apple", "mango", "banana"]))
+
+import hashlib
+print(hashlib.sha256(b"hello").hexdigest())
