@@ -34,3 +34,6 @@ webbrowser.open("https://www.python.org")
 
 import json
 print(json.dumps({"name": "Pradeep", "age": 21}))
+
+from collections import Counter
+print(Counter("banana"))
