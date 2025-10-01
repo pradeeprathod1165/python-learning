@@ -46,3 +46,7 @@ print(hashlib.sha256(b"hello").hexdigest())
 
 import turtle
 turtle.forward(100)
+
+import emoji
+print(emoji.emojize("I love Python :snake:"))
+
