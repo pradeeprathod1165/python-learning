@@ -27,3 +27,7 @@ print(uuid.uuid4())
 #calender
 import calendar
 print(calendar.month(2025, 9))
+
+
+import webbrowser
+webbrowser.open("https://www.python.org")
