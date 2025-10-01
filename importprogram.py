@@ -37,3 +37,6 @@ print(json.dumps({"name": "Pradeep", "age": 21}))
 
 from collections import Counter
 print(Counter("banana"))
+
+import random
+print(random.choice(["apple", "mango", "banana"]))
