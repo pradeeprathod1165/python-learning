@@ -31,3 +31,6 @@ print(calendar.month(2025, 9))
 
 import webbrowser
 webbrowser.open("https://www.python.org")
+
+import json
+print(json.dumps({"name": "Pradeep", "age": 21}))
